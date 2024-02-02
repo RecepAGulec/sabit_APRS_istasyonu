@@ -1,5 +1,4 @@
 # sabit_APRS_istasyonu
-Belli bir konumdan meteorolojik veri aktarımı için
 Belli bir konumdan bâzı meteorolojik verilerin ve gerekiyorsa başka verilerin en kolay şekilde aktarılması için APRS sisteminden faydalanılabilir. Bu amaçla
 bir APRS sistemi arayışına girdim. Bulduğum pek çok proje konum ve hız bilgilerini iletmek üzere tasarlanmıştı. İstediğim gibi çalışan uygulamalar da ticarî
 idi.
@@ -12,4 +11,6 @@ kumanda ilave edilmiştir.
 https://forum.arduino.cc/t/including-variables-in-text-with-aprs/597188 adresindeki bilgilerden faydalanılmıştır.
 4) BMP280 algılayıcısı kullanılarak sıcaklık ve basınç verileri elde edilmiş ve bu veriler comment satırında gösterilir hâle getirilmiştir.
 5) Devre, tek bir Li-Ion pille beslendiğinden, pil gerilimi keza comment satırında gösterilir hâle getirilmiştir.
-Devre şu an test aşamasındadır. Daha sonra devreye bir güneş paneli ve bir doldurma devresi ilâve edilecektir.
+   Devre, ulaşılması görece zor bir yere yerleştirildiğinde, devrenin Li-Ion pilini doldurmak üere devreye bir güneş pili
+   ilave edilebilir. Bu güneş pilinin panel gerilimi de keza comment satırında gösterilecektir.
+
