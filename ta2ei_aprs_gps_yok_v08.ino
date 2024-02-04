@@ -184,8 +184,8 @@ void locationUpdate() {
   comment[35] =  (pvyuz % 10) + '0';               // birler hânesi
   // Verileri COMMENT için hazırlama kısmının sonu /////////////////////////////////////
 
-  APRS_setLat("3950.34N");                        // NMEA formatında istasyonun enlem değeri KENDİ İSTASYONUNUZ DEĞERLERİNİ YAZIN!
-  APRS_setLon("03233.07E");                       // NMEA formatında istasyonun boylam değeri KENDİ İSTASYONUNUZ DEĞERLERİNİ YAZIN!
+  APRS_setLat("3450.34N");                        // NMEA formatında istasyonun enlem değeri KENDİ İSTASYONUNUZ DEĞERLERİNİ YAZIN!
+  APRS_setLon("03633.07E");                       // NMEA formatında istasyonun boylam değeri KENDİ İSTASYONUNUZ DEĞERLERİNİ YAZIN!
   digitalWrite(PTT, HIGH);                        // Paketi göndermeden önce PTT'yi devreye sok
   delay(200);                                     // 200mS bekle
 
