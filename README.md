@@ -7,7 +7,7 @@ Bu uygulama, GPS'e ihtiyaç göstermeden, elle pozisyon bilgisi girmeye izin ver
 1) Standart koordinat girişi yerine NMEA formatında koordinat girerek koddan kısmî tasarruf sağladım.
 2) Jerome LOYET'in DRA818 kütüphânesi ( https://github.com/fatpat/arduino-dra818 ) kullanılarak bir SA818 (DRA818) VHF alıcı-verici modülüne arduino ile
 kumanda ilave edilmiştir.
-3) Bâzı verilerin APRS paketinin commant kısmında gönderilebilmesi sağlanmıştır. Bu verileri comment satırına uygularken 
+3) Bâzı verilerin APRS paketinin comment kısmında gönderilebilmesi sağlanmıştır. Bu verileri comment satırına uygularken 
 https://forum.arduino.cc/t/including-variables-in-text-with-aprs/597188 adresindeki bilgilerden faydalanılmıştır.
 4) BMP280 algılayıcısı kullanılarak sıcaklık ve basınç verileri elde edilmiş ve bu veriler comment satırında gösterilir hâle getirilmiştir.
 5) Devre, tek bir Li-Ion pille beslendiğinden, pil gerilimi keza comment satırında gösterilir hâle getirilmiştir.
